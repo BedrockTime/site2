@@ -1,4 +1,30 @@
+body {
+  padding: 25px 200px 0 200px;
+}
+
 .name {
   display: flex;
   align-items: center;
+}
+
+.name_div {
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#E21235;
+  border-radius: 12px;
+  max-height: 64px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
 }
