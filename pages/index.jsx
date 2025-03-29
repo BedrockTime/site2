@@ -5,6 +5,7 @@ const App = () => {
         <div className="name">
           <p>Не</p>
           <h1>DNS</h1>
+          <p>asdawd</p>
         </div>
       </div>
     </div>
