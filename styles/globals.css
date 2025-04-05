@@ -1,5 +1,5 @@
 body {
-  padding: 25px 200px 0 200px;
+  margin: 0px;
 }
 
 .name {
@@ -19,6 +19,7 @@ body {
 
 .header {
   display: flex;
+  width: 1350px;
   justify-content: space-between;
   align-items: center;
 }
@@ -27,4 +28,86 @@ body {
   display: flex;
   width: 150px;
   justify-content: space-between;
+}
+
+.osnova {
+  display: flex;
+  width: 700px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 260px;
+}
+
+.pravo {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+}
+
+.pravo_2 {
+  display: flex;
+  width: 360px;
+  justify-content: space-between
+}
+
+.osnova_osn {
+  color: #ffffff;
+  background-color: #333333;
+}
+
+.osnova_p{
+  user-select: none;
+}
+
+.osnova_p:hover {
+  color:#E21235;
+  cursor: pointer;
+}
+
+.headercat {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 250px;
+}
+
+.cat_osn {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  position: absolute;
+  background-color: white;
+  margin-top: 60px;
+  padding: 10px 30px 15px 30px;
+  border-radius: 12px;
+}
+
+.div_cat {
+  width: 100px;
+}
+
+.cat_p {
+  user-select: none;
+}
+
+.cat_p:hover {
+  color:#E21235;
+  cursor: pointer;
+}
+
+.head_p{
+  user-select: none;
+}
+
+.head_p2{
+  user-select: none;
+  cursor: pointer;
+}
+
+.cat_button{
+  padding: 10px 10px 12px 10px;
+  background-color: #fa274a;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
 }
