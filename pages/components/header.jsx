@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { useState } from "react"
 
 const Header = () => {
@@ -118,7 +119,7 @@ const Header = () => {
         </div>
         <div className="panel">
           <p className="head_p2">Корзина</p>
-          <p className="head_p2">Войти</p>
+          <Link href="/components/login" className="head_p2">Войти</Link>
         </div>
       </div>
       <Catalog/>
